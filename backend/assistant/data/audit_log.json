@@ -1,0 +1,768 @@
+[
+  {
+    "audit_id": 1,
+    "timestamp": "2026-09-04T05:17:24.746897+00:00",
+    "event_type": "expert_review",
+    "scan_id": "TEST-WEAK",
+    "detection": {
+      "class_id": 3,
+      "class_name": "Rocks/Stones",
+      "confidence": 0.31,
+      "bbox": [
+        50,
+        60,
+        150,
+        160
+      ]
+    },
+    "details": {
+      "decision": "requires_further_sonar_inspection",
+      "feedback_id": 1
+    }
+  },
+  {
+    "audit_id": 2,
+    "timestamp": "2026-09-04T05:18:19.859303+00:00",
+    "event_type": "expert_review",
+    "scan_id": "TEST-WEAK",
+    "detection": {
+      "class_id": 3,
+      "class_name": "Rocks/Stones",
+      "confidence": 0.31,
+      "bbox": [
+        50,
+        60,
+        150,
+        160
+      ]
+    },
+    "details": {
+      "decision": "requires_further_sonar_inspection",
+      "feedback_id": 2
+    }
+  },
+  {
+    "audit_id": 3,
+    "timestamp": "2026-09-04T14:21:56.960404+00:00",
+    "event_type": "expert_review",
+    "scan_id": "SONAR-TEST-001",
+    "detection": {
+      "class_name": "Shipwreck",
+      "confidence": 0.91,
+      "bbox": [
+        100,
+        120,
+        300,
+        280
+      ]
+    },
+    "details": {
+      "decision": "correct_detection",
+      "feedback_id": 3,
+      "corrected_class": null
+    }
+  },
+  {
+    "audit_id": 4,
+    "timestamp": "2026-09-05T04:40:21.942491+00:00",
+    "event_type": "expert_review",
+    "scan_id": "SONAR-D4B6C699",
+    "detection": {
+      "class_id": 3,
+      "class_name": "Shipwreck",
+      "confidence": 0.5484,
+      "confidence_percent": 54.8,
+      "bbox": [
+        168,
+        315,
+        254,
+        595
+      ],
+      "bounding_box": {
+        "x1": 168,
+        "y1": 315,
+        "x2": 254,
+        "y2": 595
+      },
+      "location": {
+        "latitude": 12.657085705245919,
+        "longitude": 80.17913681696852
+      },
+      "is_unknown_anomaly": false,
+      "anomaly_status": "Known Class Candidate",
+      "anomaly_reason": "AI confidence is above the prototype unknown-anomaly threshold.",
+      "_index": 1
+    },
+    "details": {
+      "decision": "correct_detection",
+      "feedback_id": 4,
+      "corrected_class": null
+    }
+  },
+  {
+    "audit_id": 5,
+    "timestamp": "2026-09-05T04:40:25.787540+00:00",
+    "event_type": "expert_review",
+    "scan_id": "SONAR-D4B6C699",
+    "detection": {
+      "class_id": 3,
+      "class_name": "Shipwreck",
+      "confidence": 0.5484,
+      "confidence_percent": 54.8,
+      "bbox": [
+        168,
+        315,
+        254,
+        595
+      ],
+      "bounding_box": {
+        "x1": 168,
+        "y1": 315,
+        "x2": 254,
+        "y2": 595
+      },
+      "location": {
+        "latitude": 12.657085705245919,
+        "longitude": 80.17913681696852
+      },
+      "is_unknown_anomaly": false,
+      "anomaly_status": "Known Class Candidate",
+      "anomaly_reason": "AI confidence is above the prototype unknown-anomaly threshold.",
+      "_index": 1
+    },
+    "details": {
+      "decision": "incorrect_detection",
+      "feedback_id": 5,
+      "corrected_class": null
+    }
+  },
+  {
+    "audit_id": 6,
+    "timestamp": "2026-09-05T04:40:30.842636+00:00",
+    "event_type": "expert_review",
+    "scan_id": "SONAR-D4B6C699",
+    "detection": {
+      "class_id": 3,
+      "class_name": "Shipwreck",
+      "confidence": 0.5484,
+      "confidence_percent": 54.8,
+      "bbox": [
+        168,
+        315,
+        254,
+        595
+      ],
+      "bounding_box": {
+        "x1": 168,
+        "y1": 315,
+        "x2": 254,
+        "y2": 595
+      },
+      "location": {
+        "latitude": 12.657085705245919,
+        "longitude": 80.17913681696852
+      },
+      "is_unknown_anomaly": false,
+      "anomaly_status": "Known Class Candidate",
+      "anomaly_reason": "AI confidence is above the prototype unknown-anomaly threshold.",
+      "_index": 1
+    },
+    "details": {
+      "decision": "unknown_anomaly",
+      "feedback_id": 6,
+      "corrected_class": null
+    }
+  },
+  {
+    "audit_id": 7,
+    "timestamp": "2026-09-05T04:51:07.681608+00:00",
+    "event_type": "expert_review",
+    "scan_id": "SONAR-B8138E88",
+    "detection": {
+      "class_id": 3,
+      "class_name": "Shipwreck",
+      "confidence": 0.8886,
+      "confidence_percent": 88.9,
+      "bbox": [
+        196,
+        250,
+        247,
+        320
+      ],
+      "bounding_box": {
+        "x1": 196,
+        "y1": 250,
+        "x2": 247,
+        "y2": 320
+      },
+      "location": {
+        "latitude": 12.656597650000002,
+        "longitude": 80.17826005
+      },
+      "is_unknown_anomaly": false,
+      "anomaly_status": "Known Class Candidate",
+      "anomaly_reason": "AI confidence is above the prototype unknown-anomaly threshold.",
+      "_index": 1
+    },
+    "details": {
+      "decision": "requires_further_sonar_inspection",
+      "feedback_id": 7,
+      "corrected_class": null
+    }
+  },
+  {
+    "audit_id": 8,
+    "timestamp": "2026-09-05T07:00:46.746715+00:00",
+    "event_type": "expert_review",
+    "scan_id": "SONAR-89FA13C9",
+    "detection": {
+      "class_id": 3,
+      "class_name": "Shipwreck",
+      "confidence": 0.6079,
+      "confidence_percent": 60.8,
+      "bbox": [
+        173,
+        217,
+        238,
+        438
+      ],
+      "bounding_box": {
+        "x1": 173,
+        "y1": 217,
+        "x2": 238,
+        "y2": 438
+      },
+      "location": {
+        "latitude": 12.657083580760775,
+        "longitude": 80.17908589848592
+      },
+      "is_unknown_anomaly": false,
+      "anomaly_status": "Known Class Candidate",
+      "anomaly_reason": "AI confidence is above the prototype unknown-anomaly threshold.",
+      "_index": 1
+    },
+    "details": {
+      "decision": "incorrect_detection",
+      "feedback_id": 8,
+      "corrected_class": null
+    }
+  },
+  {
+    "audit_id": 9,
+    "timestamp": "2026-09-05T07:00:51.371932+00:00",
+    "event_type": "expert_review",
+    "scan_id": "SONAR-89FA13C9",
+    "detection": {
+      "class_id": 3,
+      "class_name": "Shipwreck",
+      "confidence": 0.4676,
+      "confidence_percent": 46.8,
+      "bbox": [
+        382,
+        28,
+        639,
+        621
+      ],
+      "bounding_box": {
+        "x1": 382,
+        "y1": 28,
+        "x2": 639,
+        "y2": 621
+      },
+      "location": {
+        "latitude": 12.657083580760775,
+        "longitude": 80.17908589848592
+      },
+      "is_unknown_anomaly": false,
+      "anomaly_status": "Known Class Candidate",
+      "anomaly_reason": "AI confidence is above the prototype unknown-anomaly threshold.",
+      "_index": 2
+    },
+    "details": {
+      "decision": "requires_further_sonar_inspection",
+      "feedback_id": 9,
+      "corrected_class": null
+    }
+  },
+  {
+    "audit_id": 10,
+    "timestamp": "2026-09-05T08:19:17.772791+00:00",
+    "event_type": "expert_review",
+    "scan_id": "SONAR-BB764DED",
+    "detection": {
+      "class_id": 1,
+      "class_name": "Fish",
+      "confidence": 0.2817,
+      "confidence_percent": 28.2,
+      "bbox": [
+        193,
+        431,
+        225,
+        470
+      ],
+      "bounding_box": {
+        "x1": 193,
+        "y1": 431,
+        "x2": 225,
+        "y2": 470
+      },
+      "location": {
+        "latitude": 12.657056987427382,
+        "longitude": 80.17904086708667
+      },
+      "is_unknown_anomaly": true,
+      "anomaly_status": "Unknown Anomaly",
+      "anomaly_reason": "Low AI confidence; expert verification is required before accepting the predicted class.",
+      "_index": 3
+    },
+    "details": {
+      "decision": "incorrect_detection",
+      "feedback_id": 10,
+      "corrected_class": null
+    }
+  },
+  {
+    "audit_id": 11,
+    "timestamp": "2026-09-06T08:27:31.533590+00:00",
+    "event_type": "expert_review",
+    "scan_id": "SONAR-6A21751C",
+    "detection": {
+      "class_id": 1,
+      "class_name": "Fish",
+      "confidence": 0.7529,
+      "confidence_percent": 75.3,
+      "bbox": [
+        289,
+        343,
+        319,
+        368
+      ],
+      "bounding_box": {
+        "x1": 289,
+        "y1": 343,
+        "x2": 319,
+        "y2": 368
+      },
+      "location": {
+        "latitude": 12.657020148080898,
+        "longitude": 80.17896647259627
+      },
+      "is_unknown_anomaly": false,
+      "anomaly_status": "Known Class Candidate",
+      "anomaly_reason": "AI confidence is above the prototype unknown-anomaly threshold.",
+      "_index": 1
+    },
+    "details": {
+      "decision": "correct_detection",
+      "feedback_id": 11,
+      "corrected_class": null
+    }
+  },
+  {
+    "audit_id": 12,
+    "timestamp": "2026-09-06T08:27:40.575187+00:00",
+    "event_type": "expert_review",
+    "scan_id": "SONAR-6A21751C",
+    "detection": {
+      "class_id": 1,
+      "class_name": "Fish",
+      "confidence": 0.7529,
+      "confidence_percent": 75.3,
+      "bbox": [
+        289,
+        343,
+        319,
+        368
+      ],
+      "bounding_box": {
+        "x1": 289,
+        "y1": 343,
+        "x2": 319,
+        "y2": 368
+      },
+      "location": {
+        "latitude": 12.657020148080898,
+        "longitude": 80.17896647259627
+      },
+      "is_unknown_anomaly": false,
+      "anomaly_status": "Known Class Candidate",
+      "anomaly_reason": "AI confidence is above the prototype unknown-anomaly threshold.",
+      "_index": 1
+    },
+    "details": {
+      "decision": "correct_class",
+      "feedback_id": 12,
+      "corrected_class": null
+    }
+  },
+  {
+    "audit_id": 13,
+    "timestamp": "2026-09-06T08:27:49.272440+00:00",
+    "event_type": "expert_review",
+    "scan_id": "SONAR-6A21751C",
+    "detection": {
+      "class_id": 1,
+      "class_name": "Fish",
+      "confidence": 0.7529,
+      "confidence_percent": 75.3,
+      "bbox": [
+        289,
+        343,
+        319,
+        368
+      ],
+      "bounding_box": {
+        "x1": 289,
+        "y1": 343,
+        "x2": 319,
+        "y2": 368
+      },
+      "location": {
+        "latitude": 12.657020148080898,
+        "longitude": 80.17896647259627
+      },
+      "is_unknown_anomaly": false,
+      "anomaly_status": "Known Class Candidate",
+      "anomaly_reason": "AI confidence is above the prototype unknown-anomaly threshold.",
+      "_index": 1
+    },
+    "details": {
+      "decision": "correct_detection",
+      "feedback_id": 13,
+      "corrected_class": null
+    }
+  },
+  {
+    "audit_id": 14,
+    "timestamp": "2026-09-06T08:27:53.740408+00:00",
+    "event_type": "expert_review",
+    "scan_id": "SONAR-6A21751C",
+    "detection": {
+      "class_id": 1,
+      "class_name": "Fish",
+      "confidence": 0.7529,
+      "confidence_percent": 75.3,
+      "bbox": [
+        289,
+        343,
+        319,
+        368
+      ],
+      "bounding_box": {
+        "x1": 289,
+        "y1": 343,
+        "x2": 319,
+        "y2": 368
+      },
+      "location": {
+        "latitude": 12.657020148080898,
+        "longitude": 80.17896647259627
+      },
+      "is_unknown_anomaly": false,
+      "anomaly_status": "Known Class Candidate",
+      "anomaly_reason": "AI confidence is above the prototype unknown-anomaly threshold.",
+      "_index": 1
+    },
+    "details": {
+      "decision": "incorrect_detection",
+      "feedback_id": 14,
+      "corrected_class": null
+    }
+  },
+  {
+    "audit_id": 15,
+    "timestamp": "2026-09-06T08:27:57.250217+00:00",
+    "event_type": "expert_review",
+    "scan_id": "SONAR-6A21751C",
+    "detection": {
+      "class_id": 1,
+      "class_name": "Fish",
+      "confidence": 0.7529,
+      "confidence_percent": 75.3,
+      "bbox": [
+        289,
+        343,
+        319,
+        368
+      ],
+      "bounding_box": {
+        "x1": 289,
+        "y1": 343,
+        "x2": 319,
+        "y2": 368
+      },
+      "location": {
+        "latitude": 12.657020148080898,
+        "longitude": 80.17896647259627
+      },
+      "is_unknown_anomaly": false,
+      "anomaly_status": "Known Class Candidate",
+      "anomaly_reason": "AI confidence is above the prototype unknown-anomaly threshold.",
+      "_index": 1
+    },
+    "details": {
+      "decision": "unknown_anomaly",
+      "feedback_id": 15,
+      "corrected_class": null
+    }
+  },
+  {
+    "audit_id": 16,
+    "timestamp": "2026-09-07T03:15:28.829830+00:00",
+    "event_type": "expert_review",
+    "scan_id": "SONAR-04CE3BFE",
+    "detection": {
+      "class_id": 1,
+      "class_name": "Fish",
+      "confidence": 0.7529,
+      "confidence_percent": 75.3,
+      "bbox": [
+        289,
+        343,
+        319,
+        368
+      ],
+      "bounding_box": {
+        "x1": 289,
+        "y1": 343,
+        "x2": 319,
+        "y2": 368
+      },
+      "location": {
+        "latitude": 12.657587792482193,
+        "longitude": 80.17954546846133
+      },
+      "is_unknown_anomaly": false,
+      "anomaly_status": "Known Class Candidate",
+      "anomaly_reason": "AI confidence is above the prototype unknown-anomaly threshold.",
+      "_index": 1
+    },
+    "details": {
+      "decision": "requires_further_sonar_inspection",
+      "feedback_id": 16,
+      "corrected_class": null
+    }
+  },
+  {
+    "audit_id": 17,
+    "timestamp": "2026-09-07T05:36:53.520587+00:00",
+    "event_type": "expert_review",
+    "scan_id": "SONAR-16C55FA7",
+    "detection": {
+      "class_id": 1,
+      "class_name": "Fish",
+      "confidence": 0.7529,
+      "confidence_percent": 75.3,
+      "bbox": [
+        289,
+        343,
+        319,
+        368
+      ],
+      "bounding_box": {
+        "x1": 289,
+        "y1": 343,
+        "x2": 319,
+        "y2": 368
+      },
+      "location": {
+        "latitude": 12.657284346181568,
+        "longitude": 80.17989719584493
+      },
+      "is_unknown_anomaly": false,
+      "anomaly_status": "Known Class Candidate",
+      "anomaly_reason": "AI confidence is above the prototype unknown-anomaly threshold.",
+      "_index": 1
+    },
+    "details": {
+      "decision": "incorrect_detection",
+      "feedback_id": 17,
+      "corrected_class": null
+    }
+  },
+  {
+    "audit_id": 18,
+    "timestamp": "2026-09-07T05:37:09.497455+00:00",
+    "event_type": "expert_review",
+    "scan_id": "SONAR-16C55FA7",
+    "detection": {
+      "class_id": 1,
+      "class_name": "Fish",
+      "confidence": 0.7529,
+      "confidence_percent": 75.3,
+      "bbox": [
+        289,
+        343,
+        319,
+        368
+      ],
+      "bounding_box": {
+        "x1": 289,
+        "y1": 343,
+        "x2": 319,
+        "y2": 368
+      },
+      "location": {
+        "latitude": 12.657284346181568,
+        "longitude": 80.17989719584493
+      },
+      "is_unknown_anomaly": false,
+      "anomaly_status": "Known Class Candidate",
+      "anomaly_reason": "AI confidence is above the prototype unknown-anomaly threshold.",
+      "_index": 1
+    },
+    "details": {
+      "decision": "unknown_anomaly",
+      "feedback_id": 18,
+      "corrected_class": null
+    }
+  },
+  {
+    "audit_id": 19,
+    "timestamp": "2026-09-07T05:39:04.412193+00:00",
+    "event_type": "expert_review",
+    "scan_id": "SONAR-16C55FA7",
+    "detection": {
+      "class_id": 1,
+      "class_name": "Fish",
+      "confidence": 0.7529,
+      "confidence_percent": 75.3,
+      "bbox": [
+        289,
+        343,
+        319,
+        368
+      ],
+      "bounding_box": {
+        "x1": 289,
+        "y1": 343,
+        "x2": 319,
+        "y2": 368
+      },
+      "location": {
+        "latitude": 12.657284346181568,
+        "longitude": 80.17989719584493
+      },
+      "is_unknown_anomaly": false,
+      "anomaly_status": "Known Class Candidate",
+      "anomaly_reason": "AI confidence is above the prototype unknown-anomaly threshold.",
+      "_index": 1
+    },
+    "details": {
+      "decision": "correct_detection",
+      "feedback_id": 19,
+      "corrected_class": null
+    }
+  },
+  {
+    "audit_id": 20,
+    "timestamp": "2026-09-07T05:39:08.497680+00:00",
+    "event_type": "expert_review",
+    "scan_id": "SONAR-16C55FA7",
+    "detection": {
+      "class_id": 1,
+      "class_name": "Fish",
+      "confidence": 0.7529,
+      "confidence_percent": 75.3,
+      "bbox": [
+        289,
+        343,
+        319,
+        368
+      ],
+      "bounding_box": {
+        "x1": 289,
+        "y1": 343,
+        "x2": 319,
+        "y2": 368
+      },
+      "location": {
+        "latitude": 12.657284346181568,
+        "longitude": 80.17989719584493
+      },
+      "is_unknown_anomaly": false,
+      "anomaly_status": "Known Class Candidate",
+      "anomaly_reason": "AI confidence is above the prototype unknown-anomaly threshold.",
+      "_index": 1
+    },
+    "details": {
+      "decision": "incorrect_detection",
+      "feedback_id": 20,
+      "corrected_class": null
+    }
+  },
+  {
+    "audit_id": 21,
+    "timestamp": "2026-09-07T07:45:38.332626+00:00",
+    "event_type": "expert_review",
+    "scan_id": "SONAR-7C5BF651",
+    "detection": {
+      "class_id": 1,
+      "class_name": "Fish",
+      "confidence": 0.7529,
+      "confidence_percent": 75.3,
+      "bbox": [
+        289,
+        343,
+        319,
+        368
+      ],
+      "bounding_box": {
+        "x1": 289,
+        "y1": 343,
+        "x2": 319,
+        "y2": 368
+      },
+      "location": {
+        "latitude": 12.656719825306173,
+        "longitude": 80.17925967156613
+      },
+      "is_unknown_anomaly": false,
+      "anomaly_status": "Known Class Candidate",
+      "anomaly_reason": "AI confidence is above the prototype unknown-anomaly threshold.",
+      "_index": 1
+    },
+    "details": {
+      "decision": "unknown_anomaly",
+      "feedback_id": 21,
+      "corrected_class": null
+    }
+  },
+  {
+    "audit_id": 22,
+    "timestamp": "2026-09-10T14:35:50.476860+00:00",
+    "event_type": "expert_review",
+    "scan_id": "SONAR-F77E9A12",
+    "detection": {
+      "class_id": 0,
+      "class_name": "Aircraft",
+      "confidence": 0.2919,
+      "confidence_percent": 29.2,
+      "bbox": [
+        20,
+        140,
+        553,
+        452
+      ],
+      "bounding_box": {
+        "x1": 20,
+        "y1": 140,
+        "x2": 553,
+        "y2": 452
+      },
+      "location": {
+        "latitude": 12.657005533898063,
+        "longitude": 80.1789220365705
+      },
+      "is_unknown_anomaly": true,
+      "anomaly_status": "Unknown Anomaly",
+      "anomaly_reason": "Low AI confidence; expert verification is required before accepting the predicted class.",
+      "_index": 1
+    },
+    "details": {
+      "decision": "requires_further_sonar_inspection",
+      "feedback_id": 22,
+      "corrected_class": null
+    }
+  }
+]

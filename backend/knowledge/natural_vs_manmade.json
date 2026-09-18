@@ -1,0 +1,12 @@
+﻿{
+  "title": "Natural vs Man-Made Discrimination",
+  "topics": ["natural vs man-made", "classification", "target interpretation"],
+  "keywords": ["natural", "man-made", "classification", "shape", "shadow", "context"],
+  "content": [
+    "Distinguishing natural structures from man-made objects requires multiple supporting cues.",
+    "Useful cues can include morphology, acoustic response, shadow characteristics and surrounding seabed context.",
+    "A single visual or acoustic feature should not automatically determine object identity.",
+    "Automated classification is a prediction and should be distinguished from expert-verified interpretation.",
+    "When evidence is ambiguous, the system should raise an uncertainty alert rather than force a classification."
+  ]
+}

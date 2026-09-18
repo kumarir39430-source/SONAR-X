@@ -1,0 +1,12 @@
+﻿{
+  "title": "Seabed Types",
+  "topics": ["seabed", "seafloor", "environment", "backscatter"],
+  "keywords": ["sand", "mud", "rock", "sediment", "seabed", "seafloor"],
+  "content": [
+    "Seabed texture and acoustic backscatter provide environmental context for target interpretation.",
+    "Different seabed materials can produce different acoustic responses.",
+    "Rocky, sandy and muddy environments may produce different background textures in sonar imagery.",
+    "Environmental context should be treated as supporting evidence rather than proof of object identity.",
+    "A seabed type should not be claimed when the available survey information does not support it."
+  ]
+}

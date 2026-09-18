@@ -1,0 +1,12 @@
+﻿{
+  "title": "Marine Debris Characteristics",
+  "topics": ["marine debris", "debris detection", "man-made objects"],
+  "keywords": ["debris", "marine debris", "waste", "man-made", "object"],
+  "content": [
+    "Potential marine debris may produce isolated, geometric or acoustically distinctive sonar returns.",
+    "Man-made objects can sometimes show regular shapes or strong acoustic contrasts with the surrounding seabed.",
+    "Sonar appearance alone does not prove the material composition of an object.",
+    "Sonar classification alone does not establish whether an object is hazardous.",
+    "Ambiguous detections should remain uncertain and be sent for expert verification."
+  ]
+}

@@ -1,0 +1,12 @@
+﻿{
+  "title": "Side-Scan Sonar Interpretation",
+  "topics": ["side-scan sonar", "sonar interpretation", "backscatter", "target detection"],
+  "keywords": ["sonar", "side-scan", "backscatter", "target", "seabed", "acoustic"],
+  "content": [
+    "Side-scan sonar imagery represents acoustic backscatter from the seafloor.",
+    "Target interpretation should consider target shape, acoustic intensity, surrounding seabed context and acoustic shadow together.",
+    "A bright acoustic return may indicate a strong reflector, but brightness alone does not establish object identity.",
+    "Sonar interpretation should distinguish observed evidence from model prediction.",
+    "Low-quality, noisy or incomplete sonar imagery should reduce confidence in automated interpretation."
+  ]
+}

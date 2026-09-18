@@ -1,0 +1,307 @@
+/* =========================================================
+   SONAR-X — Feature 1A
+   Challenge AI
+   UI-only styles. These classes are prefixed with
+   "challenge-ai" to reduce collision risk with App.css.
+   ========================================================= */
+
+.challenge-ai {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 24px;
+  border: 1px solid #dbe3ee;
+  border-radius: 18px;
+  background: #ffffff;
+  box-shadow: 0 10px 28px rgba(15, 23, 42, 0.07);
+  color: #0f172a;
+}
+
+.challenge-ai--compact {
+  padding: 18px;
+}
+
+.challenge-ai__header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 18px;
+  margin-bottom: 22px;
+}
+
+.challenge-ai__eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  color: #2563eb;
+  margin-bottom: 8px;
+}
+
+.challenge-ai__header h2 {
+  margin: 0 0 7px;
+  font-size: 25px;
+  line-height: 1.15;
+}
+
+.challenge-ai__header p {
+  max-width: 720px;
+  margin: 0;
+  color: #64748b;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.challenge-ai__badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  white-space: nowrap;
+  padding: 9px 12px;
+  border-radius: 999px;
+  background: #eff6ff;
+  color: #1d4ed8;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.challenge-ai__prediction {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.challenge-ai__prediction > div {
+  min-width: 0;
+  padding: 14px;
+  border-radius: 13px;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+}
+
+.challenge-ai__prediction span {
+  display: block;
+  margin-bottom: 6px;
+  color: #64748b;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.challenge-ai__prediction strong {
+  display: block;
+  overflow-wrap: anywhere;
+  font-size: 14px;
+}
+
+.challenge-ai__question {
+  margin-bottom: 13px;
+}
+
+.challenge-ai__question > span {
+  color: #64748b;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.challenge-ai__question h3 {
+  margin: 4px 0 0;
+  font-size: 16px;
+}
+
+.challenge-ai__options {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 11px;
+}
+
+.challenge-ai__option {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  min-height: 82px;
+  padding: 13px;
+  text-align: left;
+  border: 1px solid #dbe3ee;
+  border-radius: 14px;
+  background: #ffffff;
+  cursor: pointer;
+  transition: border-color 0.18s ease, box-shadow 0.18s ease,
+    transform 0.18s ease, background 0.18s ease;
+}
+
+.challenge-ai__option:hover {
+  border-color: #93c5fd;
+  box-shadow: 0 7px 18px rgba(37, 99, 235, 0.08);
+  transform: translateY(-1px);
+}
+
+.challenge-ai__option--selected {
+  border-color: #2563eb;
+  background: #eff6ff;
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.08);
+}
+
+.challenge-ai__option-icon {
+  display: grid;
+  place-items: center;
+  flex: 0 0 40px;
+  width: 40px;
+  height: 40px;
+  border-radius: 11px;
+  background: #f1f5f9;
+  color: #475569;
+}
+
+.challenge-ai__option--selected .challenge-ai__option-icon {
+  background: #dbeafe;
+  color: #1d4ed8;
+}
+
+.challenge-ai__option-text {
+  min-width: 0;
+  flex: 1;
+}
+
+.challenge-ai__option-text strong {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 13px;
+}
+
+.challenge-ai__option-text small {
+  display: block;
+  color: #64748b;
+  font-size: 11px;
+  line-height: 1.45;
+}
+
+.challenge-ai__radio {
+  flex: 0 0 17px;
+  width: 17px;
+  height: 17px;
+  border: 2px solid #cbd5e1;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+
+.challenge-ai__radio--selected {
+  border-color: #2563eb;
+  box-shadow: inset 0 0 0 4px #ffffff;
+  background: #2563eb;
+}
+
+.challenge-ai__note {
+  margin-top: 20px;
+}
+
+.challenge-ai__note label {
+  display: block;
+  margin-bottom: 7px;
+  color: #334155;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.challenge-ai__note textarea {
+  width: 100%;
+  box-sizing: border-box;
+  resize: vertical;
+  padding: 11px 12px;
+  border: 1px solid #dbe3ee;
+  border-radius: 12px;
+  outline: none;
+  color: #0f172a;
+  background: #ffffff;
+  font: inherit;
+  font-size: 12px;
+}
+
+.challenge-ai__note textarea:focus {
+  border-color: #60a5fa;
+  box-shadow: 0 0 0 3px rgba(96, 165, 250, 0.12);
+}
+
+.challenge-ai__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  margin-top: 18px;
+  padding-top: 16px;
+  border-top: 1px solid #e2e8f0;
+}
+
+.challenge-ai__status {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  color: #64748b;
+  font-size: 11px;
+  line-height: 1.4;
+}
+
+.challenge-ai__status svg {
+  color: #16a34a;
+  flex: 0 0 auto;
+}
+
+.challenge-ai__actions {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.challenge-ai__primary,
+.challenge-ai__secondary {
+  border: 0;
+  border-radius: 10px;
+  padding: 10px 14px;
+  font-size: 12px;
+  font-weight: 750;
+  cursor: pointer;
+}
+
+.challenge-ai__primary {
+  color: #ffffff;
+  background: #2563eb;
+}
+
+.challenge-ai__primary:hover:not(:disabled) {
+  background: #1d4ed8;
+}
+
+.challenge-ai__primary:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.challenge-ai__secondary {
+  color: #334155;
+  background: #f1f5f9;
+}
+
+.challenge-ai__secondary:hover {
+  background: #e2e8f0;
+}
+
+@media (max-width: 800px) {
+  .challenge-ai__prediction,
+  .challenge-ai__options {
+    grid-template-columns: 1fr;
+  }
+
+  .challenge-ai__header,
+  .challenge-ai__footer {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .challenge-ai__actions {
+    flex-wrap: wrap;
+  }
+}

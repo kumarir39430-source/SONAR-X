@@ -1,0 +1,12 @@
+﻿{
+  "title": "Acoustic Shadows",
+  "topics": ["acoustic shadows", "target geometry", "sonar interpretation"],
+  "keywords": ["shadow", "acoustic shadow", "height", "geometry", "sonar"],
+  "content": [
+    "An acoustic shadow can provide supporting evidence about target relief and geometry.",
+    "Shadow length and shape may provide clues about the physical dimensions or orientation of a target.",
+    "An acoustic shadow should be interpreted together with the target return and surrounding seabed.",
+    "Acoustic-shadow evidence does not by itself prove the identity or material of an object.",
+    "Missing or unclear shadow information should be reported as unavailable rather than inferred."
+  ]
+}

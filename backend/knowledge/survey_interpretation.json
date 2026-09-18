@@ -1,0 +1,12 @@
+﻿{
+  "title": "Survey Interpretation",
+  "topics": ["survey interpretation", "historical comparison", "change detection"],
+  "keywords": ["survey", "historical", "comparison", "change", "coverage", "sonar"],
+  "content": [
+    "Historical survey comparisons should use comparable survey conditions whenever possible.",
+    "Observed differences between surveys may result from real environmental change or differences in acquisition and processing.",
+    "Survey coverage, sonar settings and image quality should be considered before interpreting changes.",
+    "Historical comparisons should clearly distinguish observed change from inferred explanations.",
+    "Insufficient historical evidence should not be replaced with assumptions."
+  ]
+}

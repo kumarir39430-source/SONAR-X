@@ -1,0 +1,170 @@
+# ==========================================
+# SONAR-X GITIGNORE
+# ==========================================
+
+# ------------------------------------------
+# Python
+# ------------------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Python virtual environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Python testing / cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+
+# ------------------------------------------
+# Node.js / React / Vite
+# ------------------------------------------
+node_modules/
+frontend/node_modules/
+
+dist/
+dist-ssr/
+frontend/dist/
+
+*.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+
+# ------------------------------------------
+# Environment variables / Secrets
+# ------------------------------------------
+.env
+.env.*
+!.env.example
+
+
+# ------------------------------------------
+# Databases
+# ------------------------------------------
+*.db
+*.sqlite
+*.sqlite3
+
+# Local database files
+vault.db
+
+
+# ------------------------------------------
+# AI / Machine Learning Models
+# ------------------------------------------
+*.pt
+*.pth
+*.onnx
+*.weights
+*.ckpt
+*.safetensors
+*.bin
+
+
+# ------------------------------------------
+# YOLO Training / Detection Outputs
+# ------------------------------------------
+runs/
+wandb/
+mlruns/
+
+
+# ------------------------------------------
+# Generated / Temporary Files
+# ------------------------------------------
+*.tmp
+*.temp
+*.cache
+
+temp/
+tmp/
+
+
+# ------------------------------------------
+# Logs
+# ------------------------------------------
+logs/
+*.log
+
+
+# ------------------------------------------
+# VS Code
+# ------------------------------------------
+.vscode/*
+!.vscode/extensions.json
+
+# VS Code local settings
+*.code-workspace
+
+
+# ------------------------------------------
+# Other IDEs
+# ------------------------------------------
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln
+*.njsproj
+*.ntvs*
+*.ntvs_analysis.dat
+*.sw?
+
+
+# ------------------------------------------
+# Operating System
+# ------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+
+# ------------------------------------------
+# Python build files
+# ------------------------------------------
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+
+
+# ------------------------------------------
+# Jupyter Notebook
+# ------------------------------------------
+.ipynb_checkpoints/
+
+
+# ------------------------------------------
+# Backup files
+# ------------------------------------------
+*.bak
+*.backup
+*.old
+*~
+# Large YOLO dataset
+dataset/YOLO_Dataset/images/
+dataset/YOLO_Dataset/labels/

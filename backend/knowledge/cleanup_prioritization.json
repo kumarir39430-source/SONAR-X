@@ -1,0 +1,12 @@
+﻿{
+  "title": "Cleanup Prioritization",
+  "topics": ["cleanup prioritization", "inspection priority", "marine operations"],
+  "keywords": ["cleanup", "priority", "inspection", "risk", "location", "manpower"],
+  "content": [
+    "Inspection priority can combine AI confidence, evidence strength, location certainty and environmental risk.",
+    "A high priority recommendation does not mean that an object is confirmed hazardous.",
+    "Locations with stronger evidence and higher environmental relevance may receive higher decision-support priority.",
+    "Cleanup recommendations should remain subject to marine authority and expert review.",
+    "When evidence is insufficient, the recommendation should be expert verification rather than an unsupported cleanup action."
+  ]
+}

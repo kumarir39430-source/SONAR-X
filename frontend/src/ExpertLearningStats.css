@@ -1,0 +1,268 @@
+.expert-learning-stats {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 28px;
+  background: #ffffff;
+  border: 1px solid #dbe3ee;
+  border-radius: 20px;
+  color: #0f172a;
+  font-family: Inter, Arial, sans-serif;
+  box-shadow: 0 8px 30px rgba(15, 23, 42, 0.06);
+}
+
+.expert-learning-stats__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  margin-bottom: 26px;
+}
+
+.expert-learning-stats__eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin-bottom: 8px;
+  color: #2563eb;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+
+.expert-learning-stats__header h2 {
+  margin: 0;
+  font-size: 26px;
+  line-height: 1.2;
+  font-weight: 800;
+  color: #0f172a;
+}
+
+.expert-learning-stats__header p {
+  margin: 8px 0 0;
+  max-width: 680px;
+  color: #64748b;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.expert-learning-stats__refresh {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  flex-shrink: 0;
+  padding: 10px 16px;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  background: #ffffff;
+  color: #334155;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.expert-learning-stats__refresh:hover:not(:disabled) {
+  border-color: #2563eb;
+  color: #2563eb;
+  background: #eff6ff;
+}
+
+.expert-learning-stats__refresh:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+}
+
+.expert-learning-stats__spin {
+  animation: expertStatsSpin 0.9s linear infinite;
+}
+
+@keyframes expertStatsSpin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.expert-learning-stats__cards {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.expert-learning-stats__card {
+  min-height: 110px;
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  padding: 17px;
+  box-sizing: border-box;
+  border: 1px solid #e2e8f0;
+  border-radius: 15px;
+  background: #f8fafc;
+}
+
+.expert-learning-stats__icon {
+  width: 42px;
+  height: 42px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  background: #dbeafe;
+  color: #2563eb;
+}
+
+.expert-learning-stats__icon--confirmed {
+  background: #dcfce7;
+  color: #15803d;
+}
+
+.expert-learning-stats__icon--corrected {
+  background: #fef3c7;
+  color: #b45309;
+}
+
+.expert-learning-stats__icon--unknown {
+  background: #ede9fe;
+  color: #7c3aed;
+}
+
+.expert-learning-stats__icon--inspection {
+  background: #e0f2fe;
+  color: #0369a1;
+}
+
+.expert-learning-stats__card span {
+  display: block;
+  margin-bottom: 5px;
+  color: #64748b;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.expert-learning-stats__card strong {
+  display: block;
+  color: #0f172a;
+  font-size: 25px;
+  line-height: 1;
+  font-weight: 800;
+}
+
+.expert-learning-stats__analysis {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+  margin-top: 18px;
+}
+
+.expert-learning-stats__analysis-item {
+  padding: 18px;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  background: #ffffff;
+}
+
+.expert-learning-stats__analysis-item span {
+  display: block;
+  margin-bottom: 8px;
+  color: #64748b;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.expert-learning-stats__analysis-item strong {
+  color: #1e3a8a;
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.expert-learning-stats__guardrail {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-top: 18px;
+  padding: 13px 15px;
+  border: 1px solid #fde68a;
+  border-radius: 12px;
+  background: #fffbeb;
+  color: #92400e;
+  font-size: 12px;
+  line-height: 1.55;
+}
+
+.expert-learning-stats__guardrail svg {
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+.expert-learning-stats__error {
+  display: flex;
+  align-items: flex-start;
+  gap: 11px;
+  margin-bottom: 18px;
+  padding: 14px 16px;
+  border: 1px solid #fecaca;
+  border-radius: 12px;
+  background: #fef2f2;
+  color: #991b1b;
+}
+
+.expert-learning-stats__error svg {
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.expert-learning-stats__error strong {
+  display: block;
+  margin-bottom: 3px;
+  font-size: 13px;
+}
+
+.expert-learning-stats__error span {
+  display: block;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+@media (max-width: 1100px) {
+  .expert-learning-stats__cards {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 760px) {
+  .expert-learning-stats {
+    padding: 20px;
+  }
+
+  .expert-learning-stats__header {
+    flex-direction: column;
+  }
+
+  .expert-learning-stats__refresh {
+    width: 100%;
+  }
+
+  .expert-learning-stats__cards {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .expert-learning-stats__analysis {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .expert-learning-stats__cards {
+    grid-template-columns: 1fr;
+  }
+
+  .expert-learning-stats__header h2 {
+    font-size: 22px;
+  }
+}

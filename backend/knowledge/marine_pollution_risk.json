@@ -1,0 +1,12 @@
+﻿{
+  "title": "Marine Pollution Risk",
+  "topics": ["marine pollution", "environmental risk", "risk assessment"],
+  "keywords": ["pollution", "risk", "environment", "hazard", "marine"],
+  "content": [
+    "Environmental risk should be assessed separately from AI classification confidence.",
+    "A predicted object class does not by itself establish that an object is hazardous.",
+    "Risk assessment should consider available evidence, location certainty and environmental context.",
+    "Unknown environmental information should remain explicitly marked as unknown.",
+    "Risk scores are decision-support indicators and should not be presented as proof of hazard."
+  ]
+}
