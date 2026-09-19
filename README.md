@@ -110,3 +110,13 @@ SONAR-X/
 ├── prepare_dataset.py
 ├── .gitignore
 └── README.md
+## 📸 Screenshots
+
+### Dashboard
+![SONAR-X Dashboard](docs/images/dashboard.png)
+
+### Sonar Analysis
+![SONAR-X Analysis](docs/images/analyze.png)
+
+### Object Detection & Segmentation
+![SONAR-X Segmentation](docs/images/segmentation.png)
