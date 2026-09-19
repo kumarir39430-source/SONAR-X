@@ -5958,6 +5958,272 @@
           }
         }
       ]
+    },
+    {
+      "scan_id": "SONAR-1AFF6C91",
+      "filename": "000588_jpg.rf.9daabe25ccaa25eba010dc3b74355132.jpg",
+      "timestamp": "2026-09-18T19:36:30.608300",
+      "location": {
+        "latitude": 12.657106077594664,
+        "longitude": 80.17908455364115
+      },
+      "seabed": {
+        "seabed_type": "Mixed",
+        "texture_score": 41.57,
+        "edge_strength": 12.11,
+        "mean_intensity": 62.51,
+        "adaptation_guidance": "Use balanced detection interpretation and expert verification."
+      },
+      "reliability": {
+        "quality_score": 100.0,
+        "status": "Reliable",
+        "recommendation": "Sonar quality is sufficient for prototype inference.",
+        "mean_intensity": 62.51,
+        "contrast_score": 41.57,
+        "dynamic_range": 226,
+        "edge_strength": 12.11
+      },
+      "objects": [
+        {
+          "detection_index": 1,
+          "object_id": "ANOMALY-1E82216F",
+          "class_name": "Shipwreck",
+          "confidence_percent": 78.2,
+          "bbox": [
+            60.0,
+            163.0,
+            575.0,
+            389.0
+          ],
+          "acoustic_shadow": {
+            "shadow_detected": true,
+            "shadow_score": 81.4,
+            "estimated_shadow_length_pixels": 65,
+            "target_mean_intensity": 83.43,
+            "shadow_mean_intensity": 67.72,
+            "interpretation": "Dark region adjacent to the target is consistent with a potential acoustic shadow. Geometry is reported in pixels only; physical height/orientation requires calibrated sonar metadata."
+          },
+          "evidence": {
+            "model_confidence": 78.2,
+            "evidence_strength": 85.5,
+            "environmental_priority_proxy": 80.0,
+            "decision_priority": 83.0,
+            "risk_level": "High Priority",
+            "note": "Prototype decision-support score. It is not a validated pollution, hazard or environmental-risk measurement."
+          },
+          "seabed_context": "Mixed",
+          "location": {
+            "latitude": 12.657106077594664,
+            "longitude": 80.17908455364115
+          }
+        }
+      ]
+    },
+    {
+      "scan_id": "SONAR-X-F971F0C5",
+      "filename": "000588_jpg.rf.9daabe25ccaa25eba010dc3b74355132.jpg",
+      "timestamp": "2026-09-18T19:38:06.981217",
+      "location": {
+        "latitude": 12.657106077594664,
+        "longitude": 80.17908455364115
+      },
+      "seabed": {
+        "seabed_type": "Mixed",
+        "texture_score": 41.57,
+        "edge_strength": 12.11,
+        "mean_intensity": 62.51,
+        "adaptation_guidance": "Use balanced detection interpretation and expert verification."
+      },
+      "reliability": {
+        "quality_score": 100.0,
+        "status": "Reliable",
+        "recommendation": "Sonar quality is sufficient for prototype inference.",
+        "mean_intensity": 62.51,
+        "contrast_score": 41.57,
+        "dynamic_range": 226,
+        "edge_strength": 12.11
+      },
+      "objects": []
+    },
+    {
+      "scan_id": "SONAR-7FC1E84F",
+      "filename": "000588_jpg.rf.9daabe25ccaa25eba010dc3b74355132.jpg",
+      "timestamp": "2026-09-18T19:38:29.529464",
+      "location": {
+        "latitude": 12.657106077594664,
+        "longitude": 80.17908455364115
+      },
+      "seabed": {
+        "seabed_type": "Mixed",
+        "texture_score": 41.57,
+        "edge_strength": 12.11,
+        "mean_intensity": 62.51,
+        "adaptation_guidance": "Use balanced detection interpretation and expert verification."
+      },
+      "reliability": {
+        "quality_score": 100.0,
+        "status": "Reliable",
+        "recommendation": "Sonar quality is sufficient for prototype inference.",
+        "mean_intensity": 62.51,
+        "contrast_score": 41.57,
+        "dynamic_range": 226,
+        "edge_strength": 12.11
+      },
+      "objects": [
+        {
+          "detection_index": 1,
+          "object_id": "ANOMALY-1E82216F",
+          "class_name": "Shipwreck",
+          "confidence_percent": 78.2,
+          "bbox": [
+            60.0,
+            163.0,
+            575.0,
+            389.0
+          ],
+          "acoustic_shadow": {
+            "shadow_detected": true,
+            "shadow_score": 81.4,
+            "estimated_shadow_length_pixels": 65,
+            "target_mean_intensity": 83.43,
+            "shadow_mean_intensity": 67.72,
+            "interpretation": "Dark region adjacent to the target is consistent with a potential acoustic shadow. Geometry is reported in pixels only; physical height/orientation requires calibrated sonar metadata."
+          },
+          "evidence": {
+            "model_confidence": 78.2,
+            "evidence_strength": 85.5,
+            "environmental_priority_proxy": 80.0,
+            "decision_priority": 83.0,
+            "risk_level": "High Priority",
+            "note": "Prototype decision-support score. It is not a validated pollution, hazard or environmental-risk measurement."
+          },
+          "seabed_context": "Mixed",
+          "location": {
+            "latitude": 12.657106077594664,
+            "longitude": 80.17908455364115
+          }
+        }
+      ]
+    },
+    {
+      "scan_id": "SONAR-B050E7CA",
+      "filename": "000685_jpg.rf.fb12d1f32711d6de4911b649eae3d8d1.jpg",
+      "timestamp": "2026-09-18T19:38:56.054323",
+      "location": {
+        "latitude": 12.657106077594664,
+        "longitude": 80.17908455364115
+      },
+      "seabed": {
+        "seabed_type": "Mixed",
+        "texture_score": 89.18,
+        "edge_strength": 33.3,
+        "mean_intensity": 131.92,
+        "adaptation_guidance": "Use balanced detection interpretation and expert verification."
+      },
+      "reliability": {
+        "quality_score": 100.0,
+        "status": "Reliable",
+        "recommendation": "Sonar quality is sufficient for prototype inference.",
+        "mean_intensity": 131.92,
+        "contrast_score": 89.18,
+        "dynamic_range": 255,
+        "edge_strength": 33.3
+      },
+      "objects": [
+        {
+          "detection_index": 1,
+          "object_id": "ANOMALY-201DC744",
+          "class_name": "Shipwreck",
+          "confidence_percent": 93.7,
+          "bbox": [
+            133.0,
+            256.0,
+            260.0,
+            371.0
+          ],
+          "acoustic_shadow": {
+            "shadow_detected": false,
+            "shadow_score": 66.8,
+            "estimated_shadow_length_pixels": 0,
+            "target_mean_intensity": 150.84,
+            "shadow_mean_intensity": 142.46,
+            "interpretation": "No strong adjacent shadow signal was detected by the prototype heuristic."
+          },
+          "evidence": {
+            "model_confidence": 93.7,
+            "evidence_strength": 88.9,
+            "environmental_priority_proxy": 80.0,
+            "decision_priority": 84.9,
+            "risk_level": "High Priority",
+            "note": "Prototype decision-support score. It is not a validated pollution, hazard or environmental-risk measurement."
+          },
+          "seabed_context": "Mixed",
+          "location": {
+            "latitude": 12.657106077594664,
+            "longitude": 80.17908455364115
+          }
+        }
+      ]
+    },
+    {
+      "scan_id": "SONAR-X-551F30D7",
+      "filename": "000685_jpg.rf.fb12d1f32711d6de4911b649eae3d8d1.jpg",
+      "timestamp": "2026-09-18T19:40:10.976558",
+      "location": {
+        "latitude": 12.657106077594664,
+        "longitude": 80.17908455364115
+      },
+      "seabed": {
+        "seabed_type": "Mixed",
+        "texture_score": 89.18,
+        "edge_strength": 33.3,
+        "mean_intensity": 131.92,
+        "adaptation_guidance": "Use balanced detection interpretation and expert verification."
+      },
+      "reliability": {
+        "quality_score": 100.0,
+        "status": "Reliable",
+        "recommendation": "Sonar quality is sufficient for prototype inference.",
+        "mean_intensity": 131.92,
+        "contrast_score": 89.18,
+        "dynamic_range": 255,
+        "edge_strength": 33.3
+      },
+      "objects": [
+        {
+          "detection_index": 1,
+          "object_id": "ANOMALY-9152A41A",
+          "class_name": "Shipwreck",
+          "confidence_percent": 70.5,
+          "bbox": [
+            163.0,
+            359.0,
+            252.0,
+            393.0
+          ],
+          "acoustic_shadow": {
+            "shadow_detected": true,
+            "shadow_score": 100,
+            "estimated_shadow_length_pixels": 178,
+            "target_mean_intensity": 154.77,
+            "shadow_mean_intensity": 78.34,
+            "interpretation": "Dark region adjacent to the target is consistent with a potential acoustic shadow. Geometry is reported in pixels only; physical height/orientation requires calibrated sonar metadata."
+          },
+          "evidence": {
+            "model_confidence": 70.5,
+            "evidence_strength": 86.7,
+            "environmental_priority_proxy": 80.0,
+            "decision_priority": 83.7,
+            "risk_level": "High Priority",
+            "note": "Prototype decision-support score. It is not a validated pollution, hazard or environmental-risk measurement."
+          },
+          "seabed_context": "Mixed",
+          "location": {
+            "latitude": 12.657106077594664,
+            "longitude": 80.17908455364115
+          }
+        }
+      ]
     }
   ],
   "objects": {
@@ -7532,6 +7798,55 @@
           "longitude": 80.17913898146139
         }
       ]
+    },
+    "ANOMALY-1E82216F": {
+      "object_id": "ANOMALY-1E82216F",
+      "first_seen": "SONAR-1AFF6C91",
+      "class_history": [
+        "Shipwreck"
+      ],
+      "survey_history": [
+        "SONAR-1AFF6C91",
+        "SONAR-7FC1E84F"
+      ],
+      "locations": [
+        {
+          "latitude": 12.657106077594664,
+          "longitude": 80.17908455364115
+        }
+      ]
+    },
+    "ANOMALY-201DC744": {
+      "object_id": "ANOMALY-201DC744",
+      "first_seen": "SONAR-B050E7CA",
+      "class_history": [
+        "Shipwreck"
+      ],
+      "survey_history": [
+        "SONAR-B050E7CA"
+      ],
+      "locations": [
+        {
+          "latitude": 12.657106077594664,
+          "longitude": 80.17908455364115
+        }
+      ]
+    },
+    "ANOMALY-9152A41A": {
+      "object_id": "ANOMALY-9152A41A",
+      "first_seen": "SONAR-X-551F30D7",
+      "class_history": [
+        "Shipwreck"
+      ],
+      "survey_history": [
+        "SONAR-X-551F30D7"
+      ],
+      "locations": [
+        {
+          "latitude": 12.657106077594664,
+          "longitude": 80.17908455364115
+        }
+      ]
     }
   },
   "knowledge_graph": {
@@ -7632,7 +7947,10 @@
       "ANOMALY-E95CA94C",
       "ANOMALY-0524A64C",
       "ANOMALY-2B90591B",
-      "ANOMALY-B90B40F7"
+      "ANOMALY-B90B40F7",
+      "ANOMALY-1E82216F",
+      "ANOMALY-201DC744",
+      "ANOMALY-9152A41A"
     ],
     "locations": [
       "LOCATION-12.65708-80.17909",
@@ -7738,7 +8056,11 @@
       "SONAR-X-E8876023",
       "SONAR-222D6CEC",
       "SONAR-7D244BA4",
-      "SONAR-DAA0DDC4"
+      "SONAR-DAA0DDC4",
+      "SONAR-1AFF6C91",
+      "SONAR-7FC1E84F",
+      "SONAR-B050E7CA",
+      "SONAR-X-551F30D7"
     ],
     "relationships": [
       {
@@ -9780,6 +10102,71 @@
         "from": "ANOMALY-B90B40F7",
         "relation": "HAS_PRIORITY",
         "to": "Medium Priority"
+      },
+      {
+        "from": "ANOMALY-1E82216F",
+        "relation": "DETECTED_IN",
+        "to": "SONAR-1AFF6C91"
+      },
+      {
+        "from": "ANOMALY-1E82216F",
+        "relation": "LOCATED_AT",
+        "to": "LOCATION-12.65711-80.17908"
+      },
+      {
+        "from": "ANOMALY-1E82216F",
+        "relation": "CLASSIFIED_AS",
+        "to": "Shipwreck"
+      },
+      {
+        "from": "ANOMALY-1E82216F",
+        "relation": "HAS_PRIORITY",
+        "to": "High Priority"
+      },
+      {
+        "from": "ANOMALY-1E82216F",
+        "relation": "DETECTED_IN",
+        "to": "SONAR-7FC1E84F"
+      },
+      {
+        "from": "ANOMALY-201DC744",
+        "relation": "DETECTED_IN",
+        "to": "SONAR-B050E7CA"
+      },
+      {
+        "from": "ANOMALY-201DC744",
+        "relation": "LOCATED_AT",
+        "to": "LOCATION-12.65711-80.17908"
+      },
+      {
+        "from": "ANOMALY-201DC744",
+        "relation": "CLASSIFIED_AS",
+        "to": "Shipwreck"
+      },
+      {
+        "from": "ANOMALY-201DC744",
+        "relation": "HAS_PRIORITY",
+        "to": "High Priority"
+      },
+      {
+        "from": "ANOMALY-9152A41A",
+        "relation": "DETECTED_IN",
+        "to": "SONAR-X-551F30D7"
+      },
+      {
+        "from": "ANOMALY-9152A41A",
+        "relation": "LOCATED_AT",
+        "to": "LOCATION-12.65711-80.17908"
+      },
+      {
+        "from": "ANOMALY-9152A41A",
+        "relation": "CLASSIFIED_AS",
+        "to": "Shipwreck"
+      },
+      {
+        "from": "ANOMALY-9152A41A",
+        "relation": "HAS_PRIORITY",
+        "to": "High Priority"
       }
     ]
   }

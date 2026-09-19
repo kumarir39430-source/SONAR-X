@@ -29,11 +29,10 @@ except ModuleNotFoundError:
     # When running main.py directly from inside backend:
     # uvicorn main:app --reload
 
-    from rcnn.inference import detect_with_rcnn
-    from assistant.api import router as assistant_router
-    from advanced_intelligence import router as advanced_intelligence_router
-    from segmentation import router as segmentation_router
-
+    from backend.rcnn.inference import detect_with_rcnn
+    from backend.assistant.api import router as assistant_router
+from backend.advanced_intelligence import router as advanced_intelligence_router
+from backend.segmentation import router as segmentation_router
 from PIL import Image, ImageStat
 
 import io
