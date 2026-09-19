@@ -138,16 +138,34 @@ SONAR-X/
 ## Screenshots
 
 ### Dashboard
-
 ![SONAR-X Dashboard](docs/images/dashboard.png)
 
 ### Sonar Analysis
-
 ![SONAR-X Analysis](docs/images/analyze.png)
 
 ### Object Detection & Segmentation
-
 ![SONAR-X Segmentation](docs/images/segmentation.png)
+
+### Survey Map
+![SONAR-X Survey Map](docs/images/survey-map.png)
+
+### Datasets
+![SONAR-X Datasets](docs/images/datasets.png)
+
+### Reports
+![SONAR-X Reports](docs/images/reports.png)
+
+### AI Marine Assistant
+![SONAR-X AI Assistant](docs/images/ai-assistant.png)
+
+### Hotspot Analysis
+![SONAR-X Hotspot Analysis](docs/images/hotspot-analysis.png)
+
+### Waste Composition
+![SONAR-X Waste Composition](docs/images/waste-composition.png)
+
+### Location Analysis
+![SONAR-X Location Analysis](docs/images/location-analysis.png)
 
 ---
 
